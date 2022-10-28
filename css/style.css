@@ -1,0 +1,309 @@
+@import 'utilities.css';
+:root{
+    --primary: #FFA2A4;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+body{ 
+    font-family: 'Poppins', sans-serif;
+    height: 5000px;
+}
+header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%,78% 90%,0 100%);
+    
+}
+*{ /**star sare elements select krta hai**/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15 px;
+    margin: 0 auto;
+
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+.main{
+    padding:3rem 0;
+}
+.main img{
+    height: 500px;
+    width: 500px;
+    border-style: solid black;
+}
+.main .right{
+    color: var(--pure);
+    
+}
+.main .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.main .right h1{
+    font-size: 4rem ;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.main .right h1 span{
+    color: var(--primary);
+}
+.main .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+
+}
+.main .right {
+    margin-top: -7rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .second-img{
+    height: 300px;
+    width: 220px;
+    margin-left: 250px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+section.about h1 span{
+    color: var(--primary);
+
+}
+section.about h3{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .3s ease;
+}
+section.about .social a:hover{
+    background: var(--primary);
+    
+}
+section.about .social a img{
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.projects-heading{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.projects-heading span{
+    color: var(--primary);
+}
+.projects-heading + p{
+    color: var(--ternary);
+    font-family: 'lato', sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+section.projects{
+    background: var(--light);
+}
+section.projects .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+}
+section.projects .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    transition: all .3s ease;
+
+}
+section.projects .card-wrapper .card:hover{
+    background: var(--dark);
+}
+section.projects .card-wrapper .card:hover h2, section.projects .card-wrapper .card:hover p{
+    color: var(--pure);
+}
+section.projects .card-wrapper .card h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+section.projects .card-wrapper .card p{
+    text-align:center;
+    font-family: 'lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.5;
+}
+section.projects .card-wrapper .card img{
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section.projects .card-wrapper .card img.clone{
+    height: 100px;
+    width: 100px;
+   
+}
+section.projects .card-wrapper .card img.blog{
+    height: 100px;
+    width: 100px;
+    margin-top: -1rem;
+}
+
+section.projects .card-wrapper .card img.personal{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.trading{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.healthcare{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.webapp{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.resume{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.e-commerce{
+    height: 85px;
+    width: 85px;
+}
+section.projects .card-wrapper .card img.education{
+    height: 85px;
+    width: 85px;
+}
+
+section.contact .container h1{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 0.5;
+}
+section.contact .container h1 span{
+    color: var(--primary);
+}
+section.contact .container p{
+    color: var(--ternary);
+    text-align: center;
+    margin-bottom: 8rem;
+    line-height: 0.5;
+}
+img.email{
+    height: 85px;
+    width: 85px;
+}
+img.twitter{
+    height: 85px;
+    width: 85px;
+}
+img.linkedin{
+    height: 85px;
+    width: 85px;
+}
+section.contact .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 3rem;
+}
+section.contact .card-wrapper .card h1{
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+
+}
+section.contact .card-wrapper .card h6{
+    font-size: 1rem;
+    color: var(--ternary);
+    font-weight: 400;
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+    
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact .input-wrap-2 input{
+    margin-bottom: 2rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea{
+    margin-bottom: 2rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea:focus, section.contact input:focus{
+    outline: none;
+}
+section.contact input{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+}
+form{
+    margin-top: 3rem;
+}
+section.contact .btn-wrapper{
+    text-align: center;
+}

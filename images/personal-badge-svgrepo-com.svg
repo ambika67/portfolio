@@ -1,0 +1,19 @@
+<svg width="64px" height="64px" viewBox="0 -3 64 64" xmlns="http://www.w3.org/2000/svg">
+  <g id="personal_badge" transform="translate(-372 -251)">
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="26" height="26" transform="translate(402 272)" fill="#1b8cff" opacity="0.3"/>
+    <path id="Path_112" data-name="Path 112" d="M422,298v-4a3,3,0,0,0-3-3h-6a3,3,0,0,0-3,3v4" fill="#fff" opacity="0.5"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="7" cy="7" r="7" transform="translate(409 277)" fill="none" stroke="#41b2ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_113" data-name="Path 113" d="M416,287a2,2,0,0,0,2-2" fill="none" stroke="#41b2ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_114" data-name="Path 114" d="M422,298v-4a3,3,0,0,0-3-3h-6a3,3,0,0,0-3,3v4" fill="none" stroke="#41b2ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_199" data-name="Line 199" x1="16" transform="translate(406 281)" fill="none" stroke="#41b2ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="60" height="41" transform="translate(374 266)" fill="none" stroke="#1b8cff" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Path_115" data-name="Path 115" d="M397,266V253h14v13" fill="none" stroke="#1b8cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line id="Line_200" data-name="Line 200" x2="14" transform="translate(397 258)" fill="none" stroke="#1b8cff" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_201" data-name="Line 201" x2="14" transform="translate(397 261)" fill="none" stroke="#1b8cff" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="26" height="26" transform="translate(402 272)" fill="none" stroke="#1b8cff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_202" data-name="Line 202" x1="48" transform="translate(380 302)" fill="none" stroke="#1b8cff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_203" data-name="Line 203" x1="17" transform="translate(380 281)" fill="none" stroke="#1b8cff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_204" data-name="Line 204" x1="17" transform="translate(380 285)" fill="none" stroke="#1b8cff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_205" data-name="Line 205" x1="17" transform="translate(380 289)" fill="none" stroke="#1b8cff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
